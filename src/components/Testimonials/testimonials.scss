@@ -1,0 +1,86 @@
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+
+  .testimonialsTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.4rem;
+    color: #253732;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .reviewContainers {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    gap: 5%;
+
+    .review {
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 40px;
+      border: 1px solid #cecece;
+      border-radius: 12px;
+
+      .top {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+
+        .avatar {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+        }
+
+        .userDetails {
+          display: flex;
+          flex-direction: column;
+
+          .name {
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 1.2rem;
+            color: #253732;
+          }
+
+          .title {
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            color: #253732;
+            font-weight: 400;
+          }
+        }
+      }
+
+      .center {
+        font-style: normal;
+        color: #676666;
+        font-weight: 600;
+        margin-top: 15px;
+      }
+
+      .bottom {
+        .desc {
+          font-style: normal;
+          font-weight: 400;
+          text-align: justify;
+          margin-top: 12px;
+        }
+      }
+    }
+  }
+}

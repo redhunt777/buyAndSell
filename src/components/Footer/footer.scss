@@ -1,0 +1,41 @@
+.footer {
+  background-color: #253732;
+
+  .footerContainer {
+    background-color: #253732;
+    color: #fff;
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    width: 100%;
+    min-height: 200px;
+    max-height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #253732;
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: 230px;
+      padding: 20px;
+      height: fit-content;
+      font-size: 0.85rem;
+      margin: 0;
+
+      h6 {
+        font-weight: 600;
+        font-size: 0.85rem;
+      }
+    }
+  }
+
+  .footerBottom {
+    background-color: #253732;
+    height: fit-content;
+    color: #fff;
+    padding-bottom: 40px;
+    font-size: 0.8rem;
+  }
+}

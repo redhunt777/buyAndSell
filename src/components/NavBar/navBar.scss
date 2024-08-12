@@ -1,0 +1,42 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  width: 90%;
+  margin: auto;
+
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    color: white;
+
+    span {
+      color: white;
+      font-size: 1.1rem;
+    }
+    span:hover {
+      color: #d2d2d2;
+    }
+  }
+
+  .container2 {
+    font-size: 1.8rem;
+    font-family: "Playwrite BE VLG", cursive;
+    font-optical-sizing: auto;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    color: white;
+  }
+}

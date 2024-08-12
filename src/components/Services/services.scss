@@ -1,0 +1,56 @@
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 70px 0 40px 0;
+
+  .serviceTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.4rem;
+    color: #253732;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .servicesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 5%;
+    align-items: stretch;
+
+    .s_container {
+      width: 40%;
+      min-height: 200px;
+      border: 1px solid #cecece;
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px;
+
+      .svgContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        margin: auto;
+      }
+
+      .subHeading {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        color: #253732;
+        font-weight: 600;
+      }
+    }
+  }
+}

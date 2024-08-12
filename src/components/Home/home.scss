@@ -1,0 +1,84 @@
+.main {
+  height: 100vh;
+  width: 100vw;
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    color: white;
+    height: calc(100vh - 80px);
+
+    .containerHero1 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      width: 50%;
+      flex: 1;
+      padding: 6%;
+
+      h1 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 2.7rem;
+      }
+
+      p {
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1.1rem;
+        text-align: justify;
+      }
+    }
+
+    .containerHero2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex: 1;
+      width: 50%;
+      padding: 5%;
+      padding-top: 0;
+      padding-bottom: 12%;
+      gap: 8px;
+
+      h2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 2rem;
+        margin-bottom: 8px;
+      }
+
+      p {
+        font-weight: 600;
+        margin: 5px;
+      }
+
+      .searchBar {
+        width: 90%;
+      }
+    }
+  }
+}
+
+.backgroungImageContainer {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  z-index: -1;
+  position: absolute;
+
+  .backgroundImage {
+    filter: sepia(0.6) hue-rotate(-10deg) saturate(2) brightness(1.1);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    z-index: -1;
+  }
+}
